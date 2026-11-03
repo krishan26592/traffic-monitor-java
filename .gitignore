@@ -1,0 +1,23 @@
+# Build output
+/target/
+*.class
+
+# IDE and OS files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Model files, input videos, and generated results
+*.onnx
+*.pt
+*.mp4
+*.avi
+*.mov
+/traffic_log.csv
